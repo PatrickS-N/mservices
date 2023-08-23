@@ -13,14 +13,23 @@ questions:
       name: location
       question: Do you have geographic restrictions on your data?
       options:
+          - Yes, data must be in Australia
           - Yes, data must be at Monash
-          - Yes, it must be in Australia
+          - No restrictions
+    - type: radio
+      name: dataVolume
+      question: How much data do you expect to have over the next 12-24 months
+      options: 
+          - Up to 100GB
+          - 100GB to 1TB over 2 years
+          - 1TB to 1PB over 2 years
+          - Over 1PB over 2 years
     - type: checkbox
       name: redundancy
-      question: What type of redundancy do you need in this data?
+      question: What type of back-up / redundancy do you need for this data?
       options:
           - Access to previous versions of my data over the last 30 days
-          - I need to be able to restore data from a number of previous points in time that may be > 30 days
+          - I need to be able to restore data from a number of previous points in time that may be >30 days
     - type: checkbox
       name: security
       question: Do you have special security requirements?
@@ -33,9 +42,16 @@ questions:
           - I will use Commonwealth data under the DATA scheme
 services:
     - name: Bridges
-      description: Publish stuff here
+      match:
+          classification: [3]
+          location: [0, 1]
+          dataVolume: [0]
+          redundancy: [0]
+          security: []
+          commonwealth: []
+      description: A service to publish reserch data and related content
     - name: Gmail
-      description: You know, email
+      description: Monash-congtrolled email
     - name: Google Forms
     - name: Google MyDrive
       match:
