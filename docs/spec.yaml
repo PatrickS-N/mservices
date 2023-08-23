@@ -13,9 +13,9 @@ questions:
       name: location
       question: Do you have geographic restrictions on your data?
       options:
-          - Yes, data must be in Australia
-          - Yes, data must be at Monash
           - No restrictions
+          - Yes, data must be at Monash
+          - Yes, data must be in Australia
     - type: radio
       name: dataVolume
       question: How much data do you expect to have over the next 12-24 months
@@ -44,7 +44,7 @@ services:
     - name: Bridges
       match:
           classification: [3]
-          location: [2]
+          location: [0]
           dataVolume: [0]
           redundancy: [0]
           security: []
