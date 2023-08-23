@@ -3,9 +3,7 @@ questions:
       name: classification
       question: What is the classification of your data?
       help: |
-          Some info about classifcation....
-          Can be html and other
-          Ok
+          For more information about research data classificaiton please see the <a href="https://www.monash.edu/library/researchers/data-collection-management/guidelines/security-classifications">Security classifications for research data</a>
       options:
           - Very Sensitive
           - Sensitive
