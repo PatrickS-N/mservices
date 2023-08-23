@@ -44,7 +44,7 @@ services:
     - name: Bridges
       match:
           classification: [3]
-          location: [0, 1]
+          location: [2]
           dataVolume: [0]
           redundancy: [0]
           security: []
