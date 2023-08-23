@@ -43,16 +43,31 @@ questions:
 services:
     - name: Bridges
       match:
-          classification: [3]
+          classification: [1,2,3]
           location: [0]
           dataVolume: [0]
           redundancy: [0]
           security: []
           commonwealth: []
       description: A service to publish reserch data and related content
-    - name: Gmail
-      description: Monash-congtrolled email
+    - name: Monash Gmail
+        match:
+          classification: [3]
+          location: [0]
+          dataVolume: [0]
+          redundancy: [0]
+          security: [0]
+          commonwealth: []
+      description: Monash-controlled email
     - name: Google Forms
+      match:
+          classification: [1,2,3]
+          location: [0]
+          dataVolume: [0]
+          redundancy: [0]
+          security: [0]
+          commonwealth: []
+      description: Survey-administration software
     - name: Google MyDrive
       match:
           classification: [3]
