@@ -42,7 +42,7 @@ services:
     - name: Google MyDrive
       match:
           classification: [3]
-          location: []
+          location: [0,1]
       fields:
           - label: Brief Description
             value: |
