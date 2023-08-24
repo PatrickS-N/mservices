@@ -47,8 +47,6 @@ services:
           location: [0]
           dataVolume: [0]
           redundancy: [0]
-          security: []
-          commonwealth: []
       description: A service to publish reserch data and related content
     - name: Monash Gmail
         match:
@@ -57,7 +55,6 @@ services:
           dataVolume: [0]
           redundancy: [0]
           security: [0]
-          commonwealth: []
       description: Monash-controlled email
     - name: Google Forms
       match:
@@ -66,7 +63,6 @@ services:
           dataVolume: [0]
           redundancy: [0]
           security: [0]
-          commonwealth: []
       description: Survey-administration software
     - name: Google MyDrive
       match:
@@ -75,7 +71,6 @@ services:
           dataVolume: [0]
           redundancy: [0,1]
           security: [0]
-          commonwealth: [0] 
       fields:
           - label: Brief Description
             value: |
