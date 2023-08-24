@@ -135,7 +135,7 @@ services:
           redundancy: [0,1]
           security: [0]
           commonwealth: [0]
-    - name: $$$ Qualtrics
+    - name: Qualtrics
       match:
           classification: [0,1,2,3]
           location: [0]
@@ -144,9 +144,21 @@ services:
           security: [0]
           commonwealth: []
     - name: Qualtrics Plus
-    - name: "RDS: Market & Vault"
       match:
-          location: [0, 1]
+          classification: [0,1,2,3]
+          location: [0,2]
+          dataVolume: [0]
+          redundancy: []
+          security: [0]
+          commonwealth: []  
+    - name: $$$ RDS: Market & Vault
+      match:
+          classification: [2,3]
+          location: [0,1,2]
+          dataVolume: [0,1,2,3]
+          redundancy: [0,1]
+          security: [0]
+          commonwealth: [] 
     - name: "S:Drive"
       match:
           location: [0, 1]
