@@ -295,10 +295,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Not recommended for research use
+                Data sticks are not recommended for research use
           - label: Contact
             value: |
-                Not recommended for research use
+                Data sticks are not recommended for research use
     - name: Dropbox      
       match:
           classification: []
@@ -310,10 +310,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Not recommended for research use
+                DropBox is not recommended for research use
           - label: Contact
             value: |
-                Not recommended for research use
+                DropBox is not recommended for research use
     - name: Google Chat (formerly Hangouts)
       match:
           classification: []
@@ -325,10 +325,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Not recommended for research use
+                Google Chat is not recommended for research use
           - label: Contact
             value: |
-                Not recommended for research use
+                Google Chat is not recommended for research use
     - name: Microsoft Teams File Storage
       match:
           classification: []
@@ -340,10 +340,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Not recommended for research use
+                Microsoft Teams is not recommended for research use
           - label: Contact
             value: |
-                Not recommended for research use
+                Microsoft Teams is not recommended for research use
     - name: OneDrive      
       match:
           classification: []
@@ -355,10 +355,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Not recommended for research use
+                OneDrive is not recommended for research use
           - label: Contact
             value: |
-                Not recommended for research use
+                OneDrive is not recommended for research use
     - name: Personal computer hard drive      
       match:
           classification: []
@@ -370,10 +370,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Not recommended for research use
+                Personal computer hard drives are not recommended for research use
           - label: Contact
             value: |
-                Not recommended for research use
+                Personal computer hard drives are not recommended for research use
     - name: Sharepoint
       match:
           classification: []
@@ -385,7 +385,7 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Not recommended for research use
+                Sharepoint is not recommended for research use
           - label: Contact
             value: |
-                Not recommended for research use
+                Sharepoint is not recommended for research use
