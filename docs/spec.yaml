@@ -50,6 +50,13 @@ services:
           security: []
           commonwealth: []
       description: A service to publish research data and related content
+      fields:
+          - label: Brief Description
+            value: |
+                Text placeholder
+          - label: Contact
+            value: |
+                This field and one above can include HTML such as this link to the <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Gmail (Monash)
       match:
           classification: [1,2,3]
