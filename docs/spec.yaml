@@ -120,7 +120,7 @@ services:
           redundancy: [0]
           security: [0]
           commonwealth: [] 
-    - name: $$$ Monash Laptop
+    - name: Monash Laptop
       match:
           classification: [1,2,3]
           location: [0]
@@ -128,14 +128,30 @@ services:
           redundancy: [0]
           security: []
           commonwealth: [] 
-    - name: "M:Drive"
+    - name: M:Drive      
       match:
-          classification: [0, 1, 2, 3]
-          location: [0, 1]
-    - name: "P:Drive"
+          classification: [0,1,2,3]
+          location: [0,1,2]
+          dataVolume: [0,1]
+          redundancy: [0]
+          security: []
+          commonwealth: [] 
+    - name: P:Drive      
       match:
-          location: [0, 1]
-    - name: Qualtrics
+          classification: [0,1,2,3]
+          location: [0,1,2]
+          dataVolume: [0,1,2,3]
+          redundancy: [0,1]
+          security: [0]
+          commonwealth: [0]
+    - name: $$$ Qualtrics
+      match:
+          classification: [0,1,2,3]
+          location: [0]
+          dataVolume: [0]
+          redundancy: []
+          security: [0]
+          commonwealth: []
     - name: Qualtrics Plus
     - name: "RDS: Market & Vault"
       match:
