@@ -49,7 +49,7 @@ services:
           redundancy: [0]
           security: []
           commonwealth: []
-      description: A service to publish reserch data and related content
+      description: A service to publish research data and related content
     - name: Monash Gmail
       match:
           classification: [1,2,3]
