@@ -151,7 +151,7 @@ services:
           redundancy: []
           security: [0]
           commonwealth: []  
-    - name: $$$ RDS: Market & Vault
+    - name: $$$ RDS Market & Vault
       match:
           classification: [2,3]
           location: [0,1,2]
