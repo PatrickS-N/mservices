@@ -53,10 +53,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Bridges text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Bridges contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Gmail (Monash)
       match:
           classification: [1,2,3]
@@ -69,10 +69,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Gmail text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Gmail contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Google Forms
       match:
           classification: [1,2,3]
@@ -85,10 +85,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Google forms text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Google forms contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Google MyDrive
       match:
           classification: [1,2,3]
@@ -100,10 +100,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                MyDrive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                MyDrive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Google Shared Drive
       match:
           classification: [1,2,3]
@@ -115,10 +115,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Shared Drive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Shared Drive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Helix REDCap
       match:
           classification: [0,1,2,3]
@@ -130,10 +130,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Helix text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>    
+                Helix contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>    
     - name: LabArchives
       match:
           classification: [1,2,3]
@@ -145,10 +145,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                LabArchives text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                LabArchives contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Laptop (Monash)
       match:
           classification: [1,2,3]
@@ -160,10 +160,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Laptop text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Laptop contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: M:Drive      
       match:
           classification: [0,1,2,3]
@@ -175,10 +175,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                M:drive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                M:drive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: P:Drive      
       match:
           classification: [0,1,2,3]
@@ -190,10 +190,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                P:drive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                P:drive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Qualtrics
       match:
           classification: [0,1,2,3]
@@ -205,10 +205,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Qualtrics text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Qualtrics contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Qualtrics Plus
       match:
           classification: [0,1,2,3]
@@ -220,10 +220,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Qualtrics Plus text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Qualtrics Plus contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: RDS Market & Vault
       match:
           classification: [2,3]
@@ -235,10 +235,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                RDS Market & Vault text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                RDS Market & Vault contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: S:Drive      
       match:
           classification: [0,1,2,3]
@@ -250,10 +250,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                S:Drive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                S:Drive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: SeRP
       match:
           classification: [1,2,3]
@@ -265,10 +265,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                SeRP text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                SeRP contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Zoom Recordings
       match:
           classification: [1,2,3]
@@ -280,10 +280,10 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Zoom text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Zoom contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Data sticks; portable hard drives       
       match:
           classification: []
