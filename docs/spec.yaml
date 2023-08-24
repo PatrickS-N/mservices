@@ -259,7 +259,7 @@ services:
           classification: [1,2,3]
           location: [0,1,2]
           dataVolume: [0,1,2,3]
-          redundancy: [0,1]
+          redundancy: [0]
           security: [0]
           commonwealth: []
       fields:
@@ -274,7 +274,7 @@ services:
           classification: [1,2,3]
           location: [0]
           dataVolume: [0]
-          redundancy: [0,1]
+          redundancy: [0]
           security: []
           commonwealth: []
       fields:
