@@ -114,10 +114,19 @@ services:
       description: Not included in Di's list
     - name: LabArchives
       match:
-          classification: [3]
-    - name: Monash Laptop
-      match:
-          classification: [3]
+          classification: [1,2,3]
+          location: [0,2]
+          dataVolume: [0]
+          redundancy: [0]
+          security: [0]
+          commonwealth: [] 
+    - name: $$$ Monash Laptop
+          classification: [1,2,3]
+          location: [0]
+          dataVolume: [0]
+          redundancy: [0]
+          security: []
+          commonwealth: [] 
     - name: "M:Drive"
       match:
           classification: [0, 1, 2, 3]
