@@ -103,15 +103,6 @@ services:
           - label: Contact
             value: |
                 <a href='https://www.monash.edu/researchinfrastructure/helix/capabilities/redcap'>REDCap webpage</a>
-    - name: Helix SFTP
-      match:
-          classification: []
-          location: []
-          dataVolume: []
-          redundancy: []
-          security: []
-          commonwealth: []      
-      description: Not included in Di's list
     - name: LabArchives
       match:
           classification: [1,2,3]
