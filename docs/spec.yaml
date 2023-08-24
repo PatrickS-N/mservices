@@ -151,7 +151,7 @@ services:
           redundancy: []
           security: [0]
           commonwealth: []  
-    - name: $$$ RDS Market & Vault
+    - name: RDS Market & Vault
       match:
           classification: [2,3]
           location: [0,1,2]
@@ -159,20 +159,54 @@ services:
           redundancy: [0,1]
           security: [0]
           commonwealth: [] 
-    - name: "S:Drive"
+    - name: "S:Drive"      
       match:
-          location: [0, 1]
+          classification: [0,1,2,3]
+          location: [0,1,2]
+          dataVolume: [0,1]
+          redundancy: [0,1]
+          security: [0]
+          commonwealth: [] 
     - name: SeRP
       match:
-          classification: [1, 2, 3]
-          location: [0, 1]
+          classification: [1,2,3]
+          location: [0,1,2]
+          dataVolume: [0,1,2,3]
+          redundancy: [0,1]
+          security: [0]
+          commonwealth: []
     - name: Zoom Recordings
-    - name: OneDrive
       match:
-          classification: [3]
+          classification: [1,2,3]
+          location: [0]
+          dataVolume: [0]
+          redundancy: [0,1]
+          security: []
+          commonwealth: []
+    - name: $$$ OneDrive      
+      match:
+          classification: []
           location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []
     - name: Sharepoint
-    - name: Microsoft Teams File Storage
+      match:
+          classification: []
+          location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []
+    - name: $$$ Microsoft Teams File Storage
+      match:
+          classification: []
+          location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []
     - name: Google Chat (formerly Hangouts)
     - name: Dropbox
       match:
