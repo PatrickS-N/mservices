@@ -69,9 +69,13 @@ services:
           commonwealth: []
       description: Survey-administration software
     - name: Google MyDrive
-      match:
-          classification: [3]
-          location: [0,1]
+       match:
+          classification: [1,2,3]
+          location: [0]
+          dataVolume: [0]
+          redundancy: [0,1]
+          security: [0]
+          commonwealth: []
       fields:
           - label: Brief Description
             value: |
