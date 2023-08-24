@@ -50,7 +50,7 @@ services:
           security: []
           commonwealth: []
       description: A service to publish research data and related content
-    - name: Monash Gmail
+    - name: Gmail (Monash)
       match:
           classification: [1,2,3]
           location: [0]
@@ -111,7 +111,7 @@ services:
           redundancy: [0]
           security: [0]
           commonwealth: [] 
-    - name: Monash Laptop
+    - name: Laptop (Monash)
       match:
           classification: [1,2,3]
           location: [0]
@@ -183,15 +183,23 @@ services:
           redundancy: [0,1]
           security: []
           commonwealth: []
-    - name: OneDrive      
+    - name: Data sticks; portable hard drives       
       match:
           classification: []
           location: []
           dataVolume: []
           redundancy: []
           security: []
-          commonwealth: []
-    - name: Sharepoint
+          commonwealth: []  
+    - name: Dropbox      
+      match:
+          classification: []
+          location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []   
+    - name: Google Chat (formerly Hangouts)
       match:
           classification: []
           location: []
@@ -207,15 +215,7 @@ services:
           redundancy: []
           security: []
           commonwealth: []
-    - name: Google Chat (formerly Hangouts)
-      match:
-          classification: []
-          location: []
-          dataVolume: []
-          redundancy: []
-          security: []
-          commonwealth: []
-    - name: Dropbox      
+    - name: OneDrive      
       match:
           classification: []
           location: []
@@ -231,7 +231,7 @@ services:
           redundancy: []
           security: []
           commonwealth: []
-    - name: $$$ Data sticks; portable hard drives       
+    - name: Sharepoint
       match:
           classification: []
           location: []
