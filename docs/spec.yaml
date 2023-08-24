@@ -75,7 +75,6 @@ services:
           dataVolume: [0]
           redundancy: [0,1]
           security: [0]
-          commonwealth: []
       fields:
           - label: Brief Description
             value: |
