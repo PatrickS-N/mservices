@@ -183,7 +183,7 @@ services:
           redundancy: [0,1]
           security: []
           commonwealth: []
-    - name: $$$ OneDrive      
+    - name: OneDrive      
       match:
           classification: []
           location: []
@@ -199,7 +199,7 @@ services:
           redundancy: []
           security: []
           commonwealth: []
-    - name: $$$ Microsoft Teams File Storage
+    - name: Microsoft Teams File Storage
       match:
           classification: []
           location: []
@@ -208,7 +208,34 @@ services:
           security: []
           commonwealth: []
     - name: Google Chat (formerly Hangouts)
-    - name: Dropbox
       match:
-          classification: [3]
+          classification: []
           location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []
+    - name: Dropbox      
+      match:
+          classification: []
+          location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []
+    - name: Personal computer hard drive      
+      match:
+          classification: []
+          location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []
+    - name: $$$ Data sticks; portable hard drives       
+      match:
+          classification: []
+          location: []
+          dataVolume: []
+          redundancy: []
+          security: []
+          commonwealth: []
