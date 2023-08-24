@@ -133,7 +133,8 @@ services:
                 Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
           - label: Contact
             value: |
-                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>    - name: LabArchives
+                Placeholder text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>    
+    - name: LabArchives
       match:
           classification: [1,2,3]
           location: [0,2]
