@@ -47,6 +47,8 @@ services:
           location: [0]
           dataVolume: [0]
           redundancy: [0]
+          security: []
+          commonwealth: []
       description: A service to publish reserch data and related content
     - name: Monash Gmail
       match:
@@ -55,6 +57,7 @@ services:
           dataVolume: [0]
           redundancy: [0]
           security: [0]
+          commonwealth: []
       description: Monash-controlled email
     - name: Google Forms
       match:
@@ -63,6 +66,7 @@ services:
           dataVolume: [0]
           redundancy: [0]
           security: [0]
+          commonwealth: []
       description: Survey-administration software
     - name: Google MyDrive
       match:
@@ -71,18 +75,27 @@ services:
           dataVolume: [0]
           redundancy: [0,1]
           security: [0]
+          commonwealth: []
       fields:
           - label: Brief Description
             value: |
                 Storage in the cloud with google.  Can should be taken with owndership of this data
     - name: Google Shared Drive
       match:
-          classification: [3]
-          location: []
+          classification: [1,2,3]
+          location: [0]
+          dataVolume: [0]
+          redundancy: [0,1]
+          security: [0]
+          commonwealth: []
     - name: Helix REDCap
       match:
-          classification: [0, 1, 2, 3]
-          location: [0, 1]
+          classification: [0,1,2,3]
+          location: [0,1,2]
+          dataVolume: [0]
+          redundancy: [0]
+          security: [0]
+          commonwealth: []
       fields:
           - label: Brief Description
             value: |
