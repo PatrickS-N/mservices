@@ -292,6 +292,13 @@ services:
           redundancy: []
           security: []
           commonwealth: []  
+      fields:
+          - label: Brief Description
+            value: |               
+                Not recommended for research use
+          - label: Contact
+            value: |
+                Not recommended for research use
     - name: Dropbox      
       match:
           classification: []
@@ -299,7 +306,14 @@ services:
           dataVolume: []
           redundancy: []
           security: []
-          commonwealth: []   
+          commonwealth: [] 
+      fields:
+          - label: Brief Description
+            value: |               
+                Not recommended for research use
+          - label: Contact
+            value: |
+                Not recommended for research use
     - name: Google Chat (formerly Hangouts)
       match:
           classification: []
@@ -308,6 +322,13 @@ services:
           redundancy: []
           security: []
           commonwealth: []
+      fields:
+          - label: Brief Description
+            value: |               
+                Not recommended for research use
+          - label: Contact
+            value: |
+                Not recommended for research use
     - name: Microsoft Teams File Storage
       match:
           classification: []
@@ -316,6 +337,13 @@ services:
           redundancy: []
           security: []
           commonwealth: []
+      fields:
+          - label: Brief Description
+            value: |               
+                Not recommended for research use
+          - label: Contact
+            value: |
+                Not recommended for research use
     - name: OneDrive      
       match:
           classification: []
@@ -324,6 +352,13 @@ services:
           redundancy: []
           security: []
           commonwealth: []
+      fields:
+          - label: Brief Description
+            value: |               
+                Not recommended for research use
+          - label: Contact
+            value: |
+                Not recommended for research use
     - name: Personal computer hard drive      
       match:
           classification: []
@@ -332,6 +367,13 @@ services:
           redundancy: []
           security: []
           commonwealth: []
+      fields:
+          - label: Brief Description
+            value: |               
+                Not recommended for research use
+          - label: Contact
+            value: |
+                Not recommended for research use
     - name: Sharepoint
       match:
           classification: []
@@ -340,3 +382,10 @@ services:
           redundancy: []
           security: []
           commonwealth: []
+      fields:
+          - label: Brief Description
+            value: |               
+                Not recommended for research use
+          - label: Contact
+            value: |
+                Not recommended for research use
