@@ -95,22 +95,22 @@ services:
                 - Public
           - label: Geographic restriction
             value: |
-                X No restrictions
+                No restrictions
           - label: Data limits
             value: |
-                X Up to 100GB 
+                Up to 100GB 
           - label: Back-up
             value: |
-                X Access to previous versions of my data over the last 30 days
+                Access to previous versions of my data over the last 30 days
           - label: Special security requirements
             value: |
-                X Not applicable
+                I requre multi-factor authentication to access my data
           - label: DATA Scheme use
             value: |
-                X Cannot be used for DATA scheme data
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                X For assistance with  
+                X For assistance with Gmail please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>  
     - name: Google Forms
       match:
           classification: [1,2,3]
