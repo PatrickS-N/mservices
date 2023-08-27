@@ -54,11 +54,11 @@ services:
           - label: Brief Description
             value: |               
                 Bridges is Monash University's repository for research data, collections, and research activity outputs. It is also the home of the University's online archive of PhD and Masters by Research theses. For more information see the  <a href='https://www.monash.edu/library/researchers/repositories/bridges/about'  target="_blank">About Bridges</a> page.
-
           - label: Data classification
             value: |
                 Public data only
                     - label: Contact
+          - label: Contact
             value: |
                 Bridges contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
     - name: Gmail (Monash)
