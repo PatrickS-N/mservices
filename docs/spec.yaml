@@ -90,9 +90,7 @@ services:
                 Gmail is a Monash-controlled intuitive and efficient email service that is easy to use across any device.
           - label: Data classification
             value: |
-                - Sensitive
-                - Restricted
-                - Public
+                Sensitive, Restricted & Public
           - label: Geographic restriction
             value: |
                 No restrictions
@@ -123,30 +121,29 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                XGmail is a Monash-controlled intuitive and efficient email service that is easy to use across any device.
+                Google Forms allow collection of information from users by creating customised forms for surveys and questionnaires.
           - label: Data classification
             value: |
-                X- Sensitive
-                - Restricted
-                - Public
+                Sensitive, Restricted & Public
           - label: Geographic restriction
             value: |
-                XNo restrictions
+                No restrictions
           - label: Data limits
             value: |
-                XUp to 100GB 
+                Up to 100GB 
           - label: Back-up
             value: |
-                XAccess to previous versions of my data over the last 30 days
+                Access to previous versions of my data over the last 30 days
           - label: Special security requirements
             value: |
-                XI requre multi-factor authentication to access my data
+                I requre multi-factor authentication to access my data
           - label: DATA Scheme use
             value: |
-                XCannot be used for DATA scheme data
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                XFor assistance with Gmail please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>    - name: Google MyDrive
+                For assistance with Google Forms please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>    
+    - name: Google MyDrive
       match:
           classification: [1,2,3]
           location: [0]
@@ -157,10 +154,28 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                MyDrive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                MyDrive is provded by default as a place to keep your own documents. If you leave Monash, these documents will be deleted with your Google account and the people you had shared them with will no longer have access.
+          - label: Data classification
+            value: |
+                Sensitive, Restricted & Public
+          - label: Geographic restriction
+            value: |
+                No restrictions
+          - label: Data limits
+            value: |
+                Up to 100GB 
+          - label: Back-up
+            value: |
+                Access to previous versions of my data over the last 30 days & I need to be able to restore data from a number of previous points in time that may be >30 days
+          - label: Special security requirements
+            value: |
+                I requre multi-factor authentication to access my data
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                MyDrive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with Google MyDrive please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>                    
     - name: Google Shared Drive
       match:
           classification: [1,2,3]
