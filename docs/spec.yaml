@@ -53,7 +53,7 @@ services:
       fields:
           - label: Brief Description
             value: |                
-                Bridges is Monash University's repository for research data, collections, and research activity outputs. It is also the home of the University's online archive of PhD and Masters by Research theses. For more information see the  <a href='https://www.monash.edu/library/researchers/repositories/bridges/about'  target="_blank">About Bridges</a> page.
+                > Bridges is Monash University's repository for research data, collections, and research activity outputs. It is also the home of the University's online archive of PhD and Masters by Research theses. For more information see the  <a href='https://www.monash.edu/library/researchers/repositories/bridges/about'  target="_blank">About Bridges</a> page.
           - label: Data classification
             value: |
                 Public data only
@@ -110,7 +110,7 @@ services:
                 Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                X For assistance with Gmail please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>  
+                For assistance with Gmail please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>  
     - name: Google Forms
       match:
           classification: [1,2,3]
@@ -123,11 +123,30 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Google forms text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                XGmail is a Monash-controlled intuitive and efficient email service that is easy to use across any device.
+          - label: Data classification
+            value: |
+                X- Sensitive
+                - Restricted
+                - Public
+          - label: Geographic restriction
+            value: |
+                XNo restrictions
+          - label: Data limits
+            value: |
+                XUp to 100GB 
+          - label: Back-up
+            value: |
+                XAccess to previous versions of my data over the last 30 days
+          - label: Special security requirements
+            value: |
+                XI requre multi-factor authentication to access my data
+          - label: DATA Scheme use
+            value: |
+                XCannot be used for DATA scheme data
           - label: Contact
             value: |
-                Google forms contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
-    - name: Google MyDrive
+                XFor assistance with Gmail please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>    - name: Google MyDrive
       match:
           classification: [1,2,3]
           location: [0]
