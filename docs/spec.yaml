@@ -90,9 +90,9 @@ services:
                 Gmail is a Monash-controlled intuitive and efficient email service that is easy to use across any device.
           - label: Data classification
             value: |
-                Sensitive
-                Restricted
-                Public
+                - Sensitive
+                - Restricted
+                - Public
           - label: Geographic restriction
             value: |
                 X No restrictions
