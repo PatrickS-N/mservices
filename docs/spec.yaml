@@ -51,6 +51,9 @@ services:
           commonwealth: []
       description: A service to publish research data and related content
       fields:
+          - label: Data classification
+            value: |
+                * Public data only
           - label: Brief Description
             value: |               
                 Bridges text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
