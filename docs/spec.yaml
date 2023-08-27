@@ -74,7 +74,7 @@ services:
                 Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                Bridges contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                To speak to a librarian about Bridges please email<p><a href="mailto:librarians@monash.edu"> Monash University Library</a></p>
     - name: Gmail (Monash)
       match:
           classification: [1,2,3]
