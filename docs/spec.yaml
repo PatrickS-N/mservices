@@ -364,7 +364,7 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Short term storage, designed to send and receive data from external collaborators securely on Monash infrastructure
+                Monash Drive is an implementation of IBM Aspera On Cloud for Monash Staff. It is a platform to facilitate the secure exchange of files and folders between Monash staff and their internal and external collaborators. Monash Drive is built on a hybrid-cloud infrastructure. While the interface you are using is hosted on Aspera On Cloud, your data is stored and managed on Monash On-Premise Storage using Secure Data Enclaves (Monash ISO 27001 Certified Infrastructure). Your data does not get to any third party on its way to/from our storage. 
           - label: Data classification
             value: |
                 Very Sensitive, Sensitive, Restricted & Public
@@ -401,7 +401,7 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                P:Drive provides long-term storage for compliance and high assurance purposes.
+                P:Drive is a software-defined, secure, and centralised private cloud infrastructure that aims to give Monash enterprise users and researchers a safe environment to host, process, and analyse their sensitive data. The platform has been designed and built with security as one of its main objectives..
           - label: Data classification
             value: |
                 Very Sensitive, Sensitive, Restricted & Public
