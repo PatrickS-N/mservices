@@ -503,18 +503,41 @@ services:
     - name: RDS Market & Vault
       match:
           classification: [2,3]
+          actions: [0,1]
           location: [0,1,2]
           dataVolume: [0,1,2,3]
           redundancy: [0,1]
           security: [0]
           commonwealth: [] 
       fields:
+ 
           - label: Brief Description
             value: |               
-                RDS Market & Vault text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Market storage (also known as Market-file) is a disk-based storage product that is designed to support research data that is accessed regularly (usually every day) by researchers. Market storage closely resembles the Monash University S:\ Drive and is suitable for data that changes frequently and needs to be available for daily work but is too large to be stored on a local machine. Vault storage is a tape-based storage product that is designed to accommodate long-term data storage and is best used for data that must be retained for reference but is unlikely to be accessed every day. Vault is also the best place to store redundant backups of data that is being stored locally.
+          - label: Data classification
+            value: |
+                Restricted & Public
+          - label: Data actions
+            value: |
+                Collection & Sharing
+          - label: Geographic restriction
+            value: |
+                No restrictions & Yes, data must be at Monash & Yes, data must be in Australia
+          - label: Data limits
+            value: |
+                over 1PB  
+          - label: Backup
+            value: |
+                Access to previous versions of data over the last 30 days & Ability to restore data from a number of previous points in time that may be >30 days
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication to access data only if using VPN
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                RDS Market & Vault contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with RDS Market and Vault storage please email the <p><a href="mailto:merc-rdsm-support@monash.edu">Research Data Storage Team</a></p> 
     - name: S:Drive      
       match:
           classification: [0,1,2,3]
