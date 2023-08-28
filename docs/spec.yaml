@@ -53,6 +53,7 @@ services:
     - name: Bridges
       match:
           classification: [3]
+          options: [4] 
           location: [0]
           dataVolume: [0]
           redundancy: [0]
@@ -87,6 +88,7 @@ services:
     - name: Gmail (Monash)
       match:
           classification: [1,2,3]
+          options: [3]
           location: [0]
           dataVolume: [0]
           redundancy: [0]
@@ -121,6 +123,7 @@ services:
     - name: Google Forms
       match:
           classification: [1,2,3]
+          options: [2]
           location: [0]
           dataVolume: [0]
           redundancy: [0]
@@ -155,6 +158,7 @@ services:
     - name: Google My Drive
       match:
           classification: [1,2,3]
+          options: [0]
           location: [0]
           dataVolume: [0]
           redundancy: [0,1]
@@ -188,7 +192,7 @@ services:
     - name: Google Shared Drive
       match:
           classification: [1,2,3]
-          location: [0]
+          location: [0,1]
           dataVolume: [0]
           redundancy: [0,1]
           security: [0]
@@ -222,6 +226,7 @@ services:
     - name: Helix REDCap
       match:
           classification: [0,1,2,3]
+          options: [2]
           location: [0,1,2]
           dataVolume: [0]
           redundancy: [0]
@@ -255,6 +260,7 @@ services:
     - name: LabArchives
       match:
           classification: [1,2,3]
+          options: [0,1,2]
           location: [0,2]
           dataVolume: [0]
           redundancy: [0]
