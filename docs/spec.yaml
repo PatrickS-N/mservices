@@ -9,6 +9,15 @@ questions:
           - Sensitive
           - Restricted
           - Public
+    - type: checkbox
+      name: options
+      question: What do you want to do with the data?
+      options:
+          - Store it
+          - Share it
+          - Collect it
+          - Transfer it
+          - Publish it
     - type: radio
       name: location
       question: Do you have geographic restrictions on your data?
