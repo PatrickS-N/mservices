@@ -427,6 +427,7 @@ services:
     - name: Qualtrics
       match:
           classification: [0,1,2,3]
+          actions: [2]
           location: [0]
           dataVolume: [0]
           redundancy: []
@@ -435,10 +436,31 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Qualtrics text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Qualtrics is an easy to use online survey platform if you require more detailed information from participants for surveys and questionnaires.
+          - label: Data classification
+            value: |
+                Very Sensitive, Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Collection
+          - label: Geographic restriction
+            value: |
+                No restrictions
+          - label: Data limits
+            value: |
+                Up to 100GB  
+          - label: Backup
+            value: |
+                Not backed up
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication to access data except for external collaborators
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                Qualtrics contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with Qualtrics please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>
     - name: Qualtrics Plus
       match:
           classification: [0,1,2,3]
