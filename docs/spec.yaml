@@ -3,7 +3,7 @@ questions:
       name: classification
       question: What is the classification of your data?
       help: |
-          For more information about research data classification please see the <a href="https://www.monash.edu/library/researchers/data-collection-management/guidelines/security-classifications" target="_blank">Security classifications for research data</a>
+          To determine how sensitive your research data is please use the form <a href="https://redcap.helix.monash.edu/surveys/?s=MD99XJYRNFCX79RR" target="_blank">How Sensitive is Your Research Data?</a>
       options:
           - Very Sensitive
           - Sensitive
