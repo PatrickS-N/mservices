@@ -390,6 +390,7 @@ services:
     - name: P:Drive      
       match:
           classification: [0,1,2,3]
+          actions: [0,1]
           location: [0,1,2]
           dataVolume: [0,1,2,3]
           redundancy: [0,1]
@@ -398,10 +399,31 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                P:drive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                P:Drive provides long-term storage for compliance and high assurance purposes.
+          - label: Data classification
+            value: |
+                Very Sensitive, Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Collection & Sharing
+          - label: Geographic restriction
+            value: |
+                No restrictions & Yes, data must be at Monash & Yes, data must be in Australia
+          - label: Data limits
+            value: |
+                100GB as standard but more storage can be requested  
+          - label: Backup
+            value: |
+                Access to previous versions of data over the last 30 days as standard but longer periods can be requested
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication to access data
+          - label: DATA Scheme use
+            value: |
+                Can be used for DATA scheme data
           - label: Contact
             value: |
-                P:drive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with P:Drive please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>
     - name: Qualtrics
       match:
           classification: [0,1,2,3]
