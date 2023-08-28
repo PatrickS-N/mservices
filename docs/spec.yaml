@@ -10,7 +10,7 @@ questions:
           - Restricted
           - Public
     - type: checkbox
-      name: tasks
+      name: actions
       question: What do you want to do with the data?
       options:
           - Store it
@@ -53,7 +53,7 @@ services:
     - name: Bridges
       match:
           classification: [3]
-          tasks: [4] 
+          actions: [4] 
           location: [0]
           dataVolume: [0]
           redundancy: [0]
@@ -67,6 +67,9 @@ services:
           - label: Data classification
             value: |
                 Public data only
+          - label: Data actions
+            value: |
+                Publication
           - label: Geographic restriction
             value: |
                 No restrictions
@@ -88,7 +91,7 @@ services:
     - name: Gmail (Monash)
       match:
           classification: [1,2,3]
-          tasks: [3]
+          actions: [3]
           location: [0]
           dataVolume: [0]
           redundancy: [0]
@@ -102,6 +105,9 @@ services:
           - label: Data classification
             value: |
                 Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Transfer
           - label: Geographic restriction
             value: |
                 No restrictions
@@ -123,7 +129,7 @@ services:
     - name: Google Forms
       match:
           classification: [1,2,3]
-          tasks: [2]
+          actions: [2] 
           location: [0]
           dataVolume: [0]
           redundancy: [0]
@@ -137,6 +143,9 @@ services:
           - label: Data classification
             value: |
                 Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Collection  
           - label: Geographic restriction
             value: |
                 No restrictions
@@ -158,7 +167,7 @@ services:
     - name: Google My Drive
       match:
           classification: [1,2,3]
-          tasks: [0]
+          actions: [0]
           location: [0]
           dataVolume: [0]
           redundancy: [0,1]
@@ -171,6 +180,9 @@ services:
           - label: Data classification
             value: |
                 Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Storage 
           - label: Geographic restriction
             value: |
                 No restrictions
@@ -192,7 +204,7 @@ services:
     - name: Google Shared Drive
       match:
           classification: [1,2,3]
-          tasks: [0,1] 
+          actions: [0,1] 
           location: [0,1]
           dataVolume: [0]
           redundancy: [0,1]
@@ -206,6 +218,9 @@ services:
           - label: Data classification
             value: |
                 Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Storage & Sharing
           - label: Geographic restriction
             value: |
                 No restrictions
@@ -227,7 +242,7 @@ services:
     - name: Helix REDCap
       match:
           classification: [0,1,2,3]
-          tasks: [2]
+          actions: [2]
           location: [0,1,2]
           dataVolume: [0]
           redundancy: [0]
@@ -240,6 +255,9 @@ services:
           - label: Data classification
             value: |
                 Very Sensitive, Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Collection
           - label: Geographic restriction
             value: |
                 No restrictions & Yes, data must be at Monash & Yes, data must be in Australia
@@ -261,7 +279,7 @@ services:
     - name: LabArchives
       match:
           classification: [1,2,3]
-          tasks: [0,1,2]
+          actions: [0,1,2]
           location: [0,2]
           dataVolume: [0]
           redundancy: [0]
@@ -274,6 +292,9 @@ services:
           - label: Data classification
             value: |
                 Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Storage & Sharing & Collection
           - label: Geographic restriction
             value: |
                 No restrictions & Yes, data must be in Australia
@@ -295,7 +316,7 @@ services:
     - name: Laptop (Monash)
       match:
           classification: [1,2,3]
-          tasks: [0]
+          actions: [0]
           location: [0]
           dataVolume: [0]
           redundancy: [0]
