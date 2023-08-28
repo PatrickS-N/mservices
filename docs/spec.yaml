@@ -34,7 +34,7 @@ questions:
       name: security
       question: Do you have special security requirements?
       options:
-          - I requre multi-factor authentication to access my data
+          - I require multi-factor authentication to access my data
     - type: checkbox
       name: commonwealth
       question: Will you be using Commonwealth Government data?
@@ -65,7 +65,7 @@ services:
                 Up to 100GB 
           - label: Back-up
             value: |
-                Access to previous versions of my data over the last 30 days
+                Access to previous versions of data over the last 30 days
           - label: Special security requirements
             value: |
                 Not applicable
@@ -99,10 +99,10 @@ services:
                 Up to 100GB 
           - label: Back-up
             value: |
-                Access to previous versions of my data over the last 30 days
+                Access to previous versions of data over the last 30 days
           - label: Special security requirements
             value: |
-                I requre multi-factor authentication to access my data
+                Multi-factor authentication to accessdata
           - label: DATA Scheme use
             value: |
                 Cannot be used for DATA scheme data
@@ -133,10 +133,10 @@ services:
                 Up to 100GB 
           - label: Back-up
             value: |
-                Access to previous versions of my data over the last 30 days
+                Access to previous versions of data over the last 30 days
           - label: Special security requirements
             value: |
-                I requre multi-factor authentication to access my data
+                Multi-factor authentication to access data
           - label: DATA Scheme use
             value: |
                 Cannot be used for DATA scheme data
@@ -154,7 +154,7 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Googel My Drive is provded by default as a place to keep your own documents. If you leave Monash, these documents will be deleted with your Google account and the people you had shared them with will no longer have access.
+                Google My Drive is provded by default as a place to keep your own documents. If you leave Monash, these documents will be deleted with your Google account and the people you had shared them with will no longer have access.
           - label: Data classification
             value: |
                 Sensitive, Restricted & Public
@@ -166,10 +166,10 @@ services:
                 Up to 100GB 
           - label: Back-up
             value: |
-                Access to previous versions of my data over the last 30 days & I need to be able to restore data from a number of previous points in time that may be >30 days
+                Access to previous versions of data over the last 30 days & Ability to restore data from a number of previous points in time that may be >30 days
           - label: Special security requirements
             value: |
-                I requre multi-factor authentication to access my data
+                Multi-factor authentication to access data
           - label: DATA Scheme use
             value: |
                 Cannot be used for DATA scheme data
@@ -200,10 +200,10 @@ services:
                 Up to 100GB 
           - label: Back-up
             value: |
-                Access to previous versions of my data over the last 30 days & I need to be able to restore data from a number of previous points in time that may be >30 days
+                Access to previous versions of data over the last 30 days & Ability to restore data from a number of previous points in time that may be >30 days
           - label: Special security requirements
             value: |
-                I requre multi-factor authentication to access my data
+                Multi-factor authentication to access data
           - label: DATA Scheme use
             value: |
                 Cannot be used for DATA scheme data
@@ -233,10 +233,10 @@ services:
                 Up to 100GB 
           - label: Back-up
             value: |
-                Access to previous versions of my data over the last 30 days & I need to be able to restore data from a number of previous points in time that may be >30 days
+                Access to previous versions of data over the last 30 days & Ability to restore data from a number of previous points in time that may be >30 days
           - label: Special security requirements
             value: |
-                I requre multi-factor authentication to access my data
+                Multi-factor authentication to access data
           - label: DATA Scheme use
             value: |
                 Cannot be used for DATA scheme data
@@ -254,10 +254,28 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                LabArchives text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                LabArchives is a digital platform that is designed to replace traditional paper research notebooks with a secure version and improved research workflow.          
+          - label: Data classification
+            value: |
+                Sensitive, Restricted & Public
+          - label: Geographic restriction
+            value: |
+                No restrictions & Yes, data must be in Australia
+          - label: Data limits
+            value: |
+                Up to 100GB 
+          - label: Back-up
+            value: |
+                Access to previous versions of data over the last 30 days 
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication to access data
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                LabArchives contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with LabArchives please email the<p><a href="mailto:eln-support@monash.edu"> ELN Support Team</a></p>
     - name: Laptop (Monash)
       match:
           classification: [1,2,3]
