@@ -12,6 +12,8 @@ questions:
     - type: checkbox
       name: actions
       question: What do you want to do with the data?
+      help: |
+            Need to expplain these terms especially share versus transfer
       options:
           - Store it
           - Share it
