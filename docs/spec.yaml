@@ -541,6 +541,7 @@ services:
     - name: S:Drive      
       match:
           classification: [0,1,2,3]
+          actions: [0,1] 
           location: [0,1,2]
           dataVolume: [0,1]
           redundancy: [0,1]
