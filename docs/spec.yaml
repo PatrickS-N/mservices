@@ -334,7 +334,7 @@ services:
                 Storage
           - label: Geographic restriction
             value: |
-                Monash laptops cannpt enforce geogrpahic restrictions
+                Monash laptops cannot enforce geographic restrictions
           - label: Data limits
             value: |
                 More than 100GB is not recommended 
@@ -353,8 +353,8 @@ services:
     - name: M:Drive      
       match:
           classification: [0,1,2,3]
-          tasks: 
-          location: [3,4]
+          actions: [2,3]  
+          location: [0,1,2]
           dataVolume: [0,1]
           redundancy: [0]
           security: []
@@ -362,10 +362,31 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                M:drive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Short term storage, designed to send and receive data from external collaborators securely on Monash infrastructure
+          - label: Data classification
+            value: |
+                Very Sensitive, Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Collection & Transfer
+          - label: Geographic restriction
+            value: |
+                No restrictions & Yes, data must be at Monash & Yes, data must be in Australia
+          - label: Data limits
+            value: |
+                100GB as standard but more storage can be requested  
+          - label: Backup
+            value: |
+                Access to previous versions of data over the last 30 days
+          - label: Special security requirements
+            value: |
+                Does not have multi-factor authentication to access data
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                M:drive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with M:Drive please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>
     - name: P:Drive      
       match:
           classification: [0,1,2,3]
