@@ -11,7 +11,7 @@ questions:
           - Public
     - type: checkbox
       name: actions
-      question: What do you want to do with the data?
+      question: What do you PRIMARILY want to do with the data?
       options:
           - Store it
           - Share it
