@@ -464,6 +464,7 @@ services:
     - name: Qualtrics Plus
       match:
           classification: [0,1,2,3]
+          actions: [2] 
           location: [0,2]
           dataVolume: [0]
           redundancy: []
@@ -472,10 +473,31 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Qualtrics Plus text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Helix provides Qualtrics as a managed service (Qualtrics Plus), which is an easy-to-use online survey platform with additional privacy, security and oversight suitable for research..
+          - label: Data classification
+            value: |
+                Very Sensitive, Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Collection
+          - label: Geographic restriction
+            value: |
+                No restrictions & Yes, data must be in Australia
+          - label: Data limits
+            value: |
+                Up to 100GB  
+          - label: Backup
+            value: |
+                Not backed up
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication to access data
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                Qualtrics Plus contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with Qualtrics Plus please email<p><a href="mailto:Helix-Enquiries@monash.edu"> Monash Helix</a></p> 
     - name: RDS Market & Vault
       match:
           classification: [2,3]
