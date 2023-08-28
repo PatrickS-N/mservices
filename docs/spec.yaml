@@ -221,29 +221,28 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                XGoogle Shared Drives are requested through <a href='https://servicedeskonline-myit.onbmc.com/dwp/app/#/page/s5rafqrj'  target="_blank">myServices</a>. These are work spaces that can be shared with multiple people, including those external to Monash
-                Unlike Google My Drive, when you leave Monash, your collaborators will still be able to access documents stored in these drives.
+                REDCap is a secure, web-based application to create and manage research databases and/or participant surveys. It is developed to help researchers collect and manage sensitive data effectively and responsibly. REDCap's streamlined process for rapidly creating and designing projects offers a vast array of tools that can be tailored to virtually any data collection strategy.          
           - label: Data classification
             value: |
-                XSensitive, Restricted & Public
+                Very Sensitive, Sensitive, Restricted & Public
           - label: Geographic restriction
             value: |
-                XNo restrictions
+                No restrictions & Yes, data must be at Monash & Yes, data must be in Australia
           - label: Data limits
             value: |
-                XUp to 100GB 
+                Up to 100GB 
           - label: Back-up
             value: |
-                XAccess to previous versions of my data over the last 30 days & I need to be able to restore data from a number of previous points in time that may be >30 days
+                Access to previous versions of my data over the last 30 days & I need to be able to restore data from a number of previous points in time that may be >30 days
           - label: Special security requirements
             value: |
-                XI requre multi-factor authentication to access my data
+                I requre multi-factor authentication to access my data
           - label: DATA Scheme use
             value: |
-                XCannot be used for DATA scheme data
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                XFor assistance with Google Shared Drives please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>                    
+                For assistance with REDCap please email<p><a href="mailto:redcap@monash.edu"> Monash Helix</a></p>                    
     - name: LabArchives
       match:
           classification: [1,2,3]
