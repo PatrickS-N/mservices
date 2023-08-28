@@ -325,10 +325,31 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Laptop text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Monash-provided laptops are part of the Monash Standard Operating Environment
+          - label: Data classification
+            value: |
+                Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Storage
+          - label: Geographic restriction
+            value: |
+                Monash laptops cannpt enforce geogrpahic restrictions
+          - label: Data limits
+            value: |
+                More than 100GB is not recommended 
+          - label: Back-up
+            value: |
+                Access to previous versions of data over the last 30 days
+          - label: Special security requirements
+            value: |
+                Does not have multi-factor authentication to access data
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                Laptop contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with Monash laptops please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>  
     - name: M:Drive      
       match:
           classification: [0,1,2,3]
