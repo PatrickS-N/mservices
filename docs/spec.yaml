@@ -221,10 +221,29 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Helix text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                XGoogle Shared Drives are requested through <a href='https://servicedeskonline-myit.onbmc.com/dwp/app/#/page/s5rafqrj'  target="_blank">myServices</a>. These are work spaces that can be shared with multiple people, including those external to Monash
+                Unlike Google My Drive, when you leave Monash, your collaborators will still be able to access documents stored in these drives.
+          - label: Data classification
+            value: |
+                XSensitive, Restricted & Public
+          - label: Geographic restriction
+            value: |
+                XNo restrictions
+          - label: Data limits
+            value: |
+                XUp to 100GB 
+          - label: Back-up
+            value: |
+                XAccess to previous versions of my data over the last 30 days & I need to be able to restore data from a number of previous points in time that may be >30 days
+          - label: Special security requirements
+            value: |
+                XI requre multi-factor authentication to access my data
+          - label: DATA Scheme use
+            value: |
+                XCannot be used for DATA scheme data
           - label: Contact
             value: |
-                Helix contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>    
+                XFor assistance with Google Shared Drives please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>                    
     - name: LabArchives
       match:
           classification: [1,2,3]
