@@ -510,7 +510,6 @@ services:
           security: [0]
           commonwealth: [] 
       fields:
- 
           - label: Brief Description
             value: |               
                 Market storage (also known as Market-file) is a disk-based storage product that is designed to support research data that is accessed regularly (usually every day) by researchers. Market storage closely resembles the Monash University S:\ Drive and is suitable for data that changes frequently and needs to be available for daily work but is too large to be stored on a local machine. Vault storage is a tape-based storage product that is designed to accommodate long-term data storage and is best used for data that must be retained for reference but is unlikely to be accessed every day. Vault is also the best place to store redundant backups of data that is being stored locally.
@@ -550,13 +549,35 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                S:Drive text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                S:Drive is maanged by eSolutions and allows users to securely store files on Monash storage infrastructure. VPN is required when offsite, and external accounts are available for collaborator access.    
+          - label: Data classification
+            value: |
+                Very Sensitive, Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Storage & Sharing
+          - label: Geographic restriction
+            value: |
+                No restrictions & Yes, data must be at Monash & Yes, data must be in Australia
+          - label: Data limits
+            value: |
+                Up to 100GB but more storage can be requested  
+          - label: Backup
+            value: |
+                Access to previous versions of data over the last 30 days & Longer storage by request
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication to access data only if using VPN
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                S:Drive contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with S:Drive please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>    
     - name: SeRP
       match:
           classification: [1,2,3]
+          actions: [1] 
           location: [0,1,2]
           dataVolume: [0,1,2,3]
           redundancy: [0]
@@ -565,10 +586,31 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                SeRP text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Monash Secure eResearch Platform (SeRP) is a secure environment for sharing research data for collaboration and analysis, within the control and governance of the data custodian. Monash SeRP allows the Data custodian or the delegated project manager (Data Custodian) to have visibility and control over how their data is being used by other approved researchers.
+          - label: Data classification
+            value: |
+                Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Sharing
+          - label: Geographic restriction
+            value: |
+                No restrictions & Yes, data must be at Monash & Yes, data must be in Australia
+          - label: Data limits
+            value: |
+                Up to 100GB  
+          - label: Backup
+            value: |
+                Access to previous versions of data over the last 30 days 
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication to access data
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                SeRP contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with SeRP please email<p><a href="mailto:helix@monash.edu"> Monash Helix</a></p>
     - name: Zoom Recordings
       match:
           classification: [1,2,3]
