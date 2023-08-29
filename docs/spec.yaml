@@ -614,6 +614,7 @@ services:
     - name: Zoom Recordings
       match:
           classification: [1,2,3]
+          actions: [0,2]
           location: [0]
           dataVolume: [0]
           redundancy: [0]
@@ -622,7 +623,28 @@ services:
       fields:
           - label: Brief Description
             value: |               
-                Zoom text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                Zoom conferencing allows users to broadcast a lecture or meeting to one or more rooms, across multiple campuses and external locations. it can also be used to communicate and collaborate with multiple parties, both internal and external.
+          - label: Data classification
+            value: |
+                Sensitive, Restricted & Public
+          - label: Data actions
+            value: |
+                Storage & Collection
+          - label: Geographic restriction
+            value: |
+                No restrictions & Geographic restrictions cannot be enforced 
+          - label: Data limits
+            value: |
+                Up to 100GB  
+          - label: Backup
+            value: |
+                Access to previous versions of data over the last 30 days 
+          - label: Special security requirements
+            value: |
+                Multi-factor authentication does not apply
+          - label: DATA Scheme use
+            value: |
+                Cannot be used for DATA scheme data
           - label: Contact
             value: |
-                Zoom contact text, can include HTML - <a href='https://www.intranet.monash/researchinfrastructure'  target="_blank">PVCRI intranet</a>
+                For assistance with Zoom please contact the <a href='https://www.monash.edu/esolutions/contact'  target="_blank">eSolutions Service Desk</a>
