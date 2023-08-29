@@ -13,7 +13,7 @@ questions:
       name: actions
       question: What do you want to do with the data?
       help: |
-            Need to expplain these terms especially share versus transfer
+            Need to explain these terms especially share versus transfer
       options:
           - Store it
           - Share it
@@ -37,7 +37,7 @@ questions:
           - Over 1PB over 2 years
     - type: checkbox
       name: redundancy
-      question: What type of back-up / redundancy do you need for this data?
+      question: What type of backup / redundancy do you need for this data?
       options:
           - Access to previous versions of my data over the last 30 days
           - I need to be able to restore data from a number of previous points in time that may be >30 days
